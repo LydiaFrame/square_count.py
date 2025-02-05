@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Write a program to calculate the number of perfect squares within a number range."""
+"""Calculate the number of perfect squares within a number range."""
 
 __author__ = "Lydia Frame"
 __date__ = "02/05/2025"
@@ -25,5 +25,4 @@ for i in range(first, second):
         print(str(calculate)+" * "+str(calculate)+" = "+str(i))
         count += 1
 
-print("Total of "+str(count)+" perfect squares")
-print()
+print("Total of "+str(count)+" perfect squares\n")
